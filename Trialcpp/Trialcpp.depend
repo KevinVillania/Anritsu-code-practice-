@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1619964534 source:c:\users\kevin holden\desktop\trial\trialcpp\main.cpp
+	<iostream>
+
+1620009522 source:c:\users\kevin holden\desktop\trial\trialcpp\binary.cpp
+	<iostream>
+
+1620024407 source:c:\users\kevin holden\desktop\trial\trialcpp\palindrome.cpp
+	<iostream>
+
+1620026124 source:c:\users\kevin holden\desktop\trial\trialcpp\stack.cpp
+	<iostream>
+	<iterator>
+	<stack>
+
+1620050216 source:c:\users\kevin holden\desktop\trial\trialcpp\maxnum.cpp
+	<iostream>
+	<algorithm>
+
+1620110982 source:c:\users\kevin holden\desktop\trial\trialcpp\reverse.cpp
+	<iostream>
+	<string>
+	<math.h>
+	<algorithm>
+	<deque>
+	<vector>
+
