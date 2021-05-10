@@ -10,24 +10,14 @@ void firstFunction(string word);
 void secondFunction(int number);
 void thirdFunction(string A, string B);
 int fourthFunction(int A, int B);
+int fourthFunction2(int base, int raise);
 int fifthFunction(int number);
 int sixthFunction(vector<int> number);
 
+
 int main(){
 
-    /*
-    firstFunction("skyflakes");
-    secondFunction(16);
-    thirdFunction("Man", "doga");
-    cout << fourthFunction(4,2);
-    cout << endl;
-
-    cout << fifthFunction(23);
-    cout << endl;
-    */
-    vector<int> newVector = {2,2,3,3,4,4};
-
-    cout << sixthFunction(newVector);
+    cout << fourthFunction(-22,3);
 }
 
 //Reverses a word
@@ -76,6 +66,21 @@ void thirdFunction(string A, string B){
 int fourthFunction(int A, int B){
 
     return pow(A,B);
+}
+
+int fourthFunction2(int base, int raise){
+
+    if(raise > 1){
+
+        return base * fourthFunction2(base, raise-1);
+
+    }else if(raise == 1){
+
+        return base;
+    }else{
+
+        return 1;
+    }
 }
 
 

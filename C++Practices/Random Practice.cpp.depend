@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1620557705 source:c:\users\kevin holden\desktop\trial\random practice.cpp\functions.cpp
+	<iostream>
+	"Functions.h"
+	<string>
+	<algorithm>
+
+1620553817 c:\users\kevin holden\desktop\trial\random practice.cpp\functions.h
+	<string>
+	<deque>
+
+1620557261 source:c:\users\kevin holden\desktop\trial\random practice.cpp\main.cpp
+	<iostream>
+	"Functions.h"
+	<math.h>
+	<iomanip>
+	<string>
+

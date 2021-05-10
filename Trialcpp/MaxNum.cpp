@@ -1,3 +1,5 @@
+//REMAKE Prime Number function
+
 #include <iostream>
 #include <algorithm>
 using namespace std;
@@ -11,26 +13,13 @@ float tempConverterC2F(float celsius);
 float tempConverterF2C(float fahrenheit);
 void printTriangle(int row);
 void printTriangle2(int row);
+int exponent(int base, int raise);
 
 int main(){
-    /*
-    cout << numCompare(10,44) << endl;
-
-    int arr[5] {11,25,21,134,4};
-
-    cout << *max_element(arr,arr+5) << endl;
-
-    sort(arr,arr+5,greater<int>());
-
-    PrintArray(arr,5);
-
-    cout << endl;
-
-    cout << Factorial(25);
 
     bool primeNumber;
 
-    primeNumber = PrimeNumber(19);
+    primeNumber = PrimeNumber(25);
 
     if(primeNumber == true){
 
@@ -40,16 +29,7 @@ int main(){
         cout << "number is not prime";
     }
 
-    cout << endl;
 
-    Palindrome(122);*/
-
-
-    //cout << tempConverterF2C(90.1);
-
-    printTriangle(30);
-    //cout << endl;
-    printTriangle2(30);
 }
 
 int numCompare(int x, int y){
@@ -81,14 +61,9 @@ bool PrimeNumber(int num){
 
     //A number is prime if its factor is 1 and itself
     //if divisible by 2, not prime
+    //returns true if number is prime
 
-    if(num % 2 == 0 || num % 3 == 0 || num % 4 == 0 || num % 5 ==0 ){
-
-        return false;
-    }else{
-
-        return true;
-    }
+    //Code
 }
 
 void Palindrome(int number){
@@ -153,4 +128,21 @@ void printTriangle2(int row){
         }
         cout << endl;
     }
+}
+
+
+int exponent(int base, int raise){
+
+    if(raise > 1){
+
+        return base * exponent(base, raise-1);
+
+    }else if(raise == 1){
+
+        return base;
+    }else{
+
+        return 1;
+    }
+
 }
