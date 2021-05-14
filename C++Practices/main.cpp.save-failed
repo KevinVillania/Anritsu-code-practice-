@@ -21,8 +21,6 @@ int main(){
 
     f1.stringReversal2("shola hey");
 
-
-
 }
 
 /*a template creates a generic data type enabling the function to accept diff. data type

@@ -2,6 +2,7 @@
 #include "Functions.h"
 #include <string>
 #include <algorithm>
+#include <deque>
 using namespace std;
 
 Functions::Functions(){
@@ -15,6 +16,23 @@ void Functions::stringReversal(string word){
 
     reverse(word.begin(),word.end());
     cout << word;
+}
+
+void Functions::stringReversal2(string word){
+
+    //string reversal
+    deque<char> reverseName;
+
+    for(int i = word.length()-1; i>=0; --i){
+
+        reverseName.push_back(word[i]);
+    }
+
+    for(deque<char>::iterator it = reverseName.begin(); it != reverseName.end(); ++it){
+
+        cout << *it;
+    }
+
 }
 
 //divisible by 4 and 7

@@ -16,3 +16,21 @@
 	<iomanip>
 	<string>
 
+1620978826 source:c:\users\kevin holden\desktop\trial\c++practices\main.cpp
+	<iostream>
+	"Functions.h"
+	<math.h>
+	<iomanip>
+	<string>
+
+1620978701 c:\users\kevin holden\desktop\trial\c++practices\functions.h
+	<string>
+	<deque>
+
+1620978700 source:c:\users\kevin holden\desktop\trial\c++practices\functions.cpp
+	<iostream>
+	"Functions.h"
+	<string>
+	<algorithm>
+	<deque>
+

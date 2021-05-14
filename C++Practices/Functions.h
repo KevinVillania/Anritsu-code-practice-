@@ -10,6 +10,7 @@ class Functions
     public:
         Functions();
         void stringReversal(string word);//Reverses a word
+        void stringReversal2(string word);
         void divisibility(int number);//Checks if number is divisible 4 and 7
         void stringChecker(string A, string B);//string length checker
         int exponent(int base, int raise);//exponent function
